@@ -1,0 +1,86 @@
+# ==========================================
+# Byte-compiled / optimized / Python caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+*.env
+
+# ==========================================
+# MLOps & Big Data (Spark / Hadoop / MLflow)
+# ==========================================
+*.log
+mlruns/
+mlartifacts/
+wandb/
+lightning_logs/
+metastore_db/
+derby.log
+spark-warehouse/
+*.crc
+
+# Model serializations (Ignore models by default, keep Experiment 7 API model)
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+!Experiment 7/model.pkl
+
+# ==========================================
+# Archives & Temporary Office Files
+# ==========================================
+*.zip
+*.tar.gz
+*.rar
+~$*.doc*
+~$*.ppt*
+~$*.xls*
+
+# ==========================================
+# Editor & OS Artifacts
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+*.csv
+*.pdf
+*.pkl
+*.docx
